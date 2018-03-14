@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const Lista = () => (
   <div>
@@ -11,8 +10,5 @@ const Lista = () => (
   </div>
 )
 
-Lista.propTypes = {
-  text: PropTypes.string.isRequired
-}
 
 export default Lista
